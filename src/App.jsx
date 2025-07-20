@@ -17,7 +17,7 @@ function App() {
   }
   function check(e) {
     e.preventDefault()
-    let details = axios.get(`http://localhost:5000/?userEmail=${user}&userPassword=${pass}`)
+let details = axios.get(`http://localhost:5000/?userEmail=${user}&userPassword=${pass}`)
     details.then(function (data) {
       console.log(data);
       if (data.data == true) {
