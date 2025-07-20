@@ -31,7 +31,7 @@ let details = axios.get(`https://render-netflix-deployment-3.onrender.com/?userE
 
   return (
 
-    <main className="bg-black bg-[url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d-1024x576.jpg')] bg-cover bg-center min-h-screen">
+    <main className="bg-black bg-[url('/netflixImg.jpg')] bg-cover bg-center min-h-screen">
       <header className="p-4 px-[10vw] border-red-500 h-20 text-red-500 text-5xl font-bold cursor-pointer">
         Netflix
       </header>
